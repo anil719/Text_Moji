@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Minor_Project</title>
+        <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+      <div id="main">
+            <h1>Text <span><img src="images.png" alt=""></span> Emojis</h1>
+            <div id = "endec">
+                  <h3 id="enc_button"><span><img src="closed.jpeg" alt="" ></span> Encrypt Text</h3>
+                  <h3 id="dec_button"><span><img src="opened.jpeg" alt=""></span> Decrypted Emojis</h3>
+            </div>
+
+            <div id = "encryption">
+                  <h5>1. Type a message</h5>
+                  <textarea name="" cols="30" rows="10" id="text_msg" placeholder="Write the message which you want to encrypt"></textarea>
+                  <h5>2. Set your password </h5>
+                  <input type="password" id="pwd" placeholder="Put a password which you can remember Easily! ">
+                  <h5>3. Encrypted message</h5>
+                  <button id = "encrypt_button">
+                        <span> <img src="closed.jpeg" alt="" width=></span> Encrypted text
+                  </button>
+            </div>
+ 
+            <div id = "decryption">
+                  <h5>1. Paste encrypted messages here</h5>
+                  <textarea name="" cols="30" rows="10" id="emoji_msg" placeholder="Paste encrypted emojis here"></textarea>
+                  <h5>2. Type your password </h5>
+                  <input type="password" id="final_pwd" placeholder="Type the password which you earlier ">
+                  <h5>3. Decrypt emojis</h5>
+                  <button id = "decrypt_button">
+                        <span> <img src="opened.jpeg" alt=""></span> decrypted emojis
+                  </button>
+            </div>
+
+            <div id = "result"></div>
+      </div>
+
+      <footer>
+            Made with fun 😜 by Anil Terapalli
+      </footer>
+      <script src="script.js"></script>
+
+</body>
+</html>
