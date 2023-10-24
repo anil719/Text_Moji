@@ -232,3 +232,47 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+
+
+
+/* Media queries for responsiveness (add these) */
+@media (max-width: 600px) {
+    #main > h1 {
+        font-size: 40px;
+    }
+
+    #main > h1 span img {
+        height: 30px;
+        width: 30px;
+    }
+
+    #main > #endec {
+        width: 90%;
+        margin: 15px 0;
+    }
+
+    #main > #endec h3 {
+        font-size: 14px;
+        padding: 10px 8px;
+    }
+
+    #main > #encryption,
+    #main > #decryption {
+        width: 90%;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    #main > h1 {
+        font-size: 50px;
+    }
+
+    /* Add more styles for tablets here */
+}
+
+@media (min-width: 1025px) {
+    /* Add styles for desktops here */
+}
+
+
